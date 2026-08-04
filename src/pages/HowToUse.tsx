@@ -207,17 +207,17 @@ const HowToUse = () => {
             <div className="card-trip border-t-4 border-t-primary">
               <h3 className="font-bold mb-2 text-primary">예약 기간</h3>
               <p className="text-sm text-muted-foreground">= 프로모션 기간. 이 기간 안에 <strong>예약을 완료</strong>해야 합니다.</p>
-              <p className="text-xs text-muted-foreground mt-2">예시: 예약 기간 7/1~7/31 → 7월 안에 예약 완료 필수</p>
+              <p className="text-xs text-muted-foreground mt-2">예시: 예약 기간 8/1~8/31 → 8월 안에 예약 완료 필수</p>
             </div>
             <div className="card-trip border-t-4 border-t-trip-green">
               <h3 className="font-bold mb-2 text-trip-green">숙박 기간 (호텔)</h3>
               <p className="text-sm text-muted-foreground">실제 <strong>체크인하여 투숙</strong>할 수 있는 날짜 범위</p>
-              <p className="text-xs text-muted-foreground mt-2">예시: 숙박 기간 8/1~12/31 → 7월에 예약해도 8~12월 투숙 가능</p>
+              <p className="text-xs text-muted-foreground mt-2">예시: 숙박 기간 9/1~12/31 → 8월에 예약해도 9~12월 투숙 가능</p>
             </div>
             <div className="card-trip border-t-4 border-t-trip-orange">
               <h3 className="font-bold mb-2 text-trip-orange">출발 기간 (항공권)</h3>
               <p className="text-sm text-muted-foreground">항공편 <strong>실제 출발일</strong>이 속해야 하는 기간</p>
-              <p className="text-xs text-muted-foreground mt-2">예시: 출발 기간 8/1~10/31 → 11월 출발은 적용 불가</p>
+              <p className="text-xs text-muted-foreground mt-2">예시: 출발 기간 9/1~11/30 → 12월 출발은 적용 불가</p>
             </div>
           </div>
         </section>
