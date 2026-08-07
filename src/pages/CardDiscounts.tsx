@@ -15,18 +15,18 @@ const CardDiscounts = () => {
   return (
     <>
       <Head>
-        <title>카드사별 할인 상세 - 트립닷컴 호텔 할인코드</title>
+        <title>카드사별 할인 상세 - 트립닷컴 쿠폰</title>
         <meta name="description" content="트립닷컴 카드사별 제휴 할인 총정리. 신한카드 8%, KB국민 6%, 카카오뱅크 20% 등 카드별 조건·기간·사용법 완벽 가이드." />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/card-discounts" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="카드사별 할인 상세 - 트립닷컴 호텔 할인코드" />
+        <meta property="og:title" content="카드사별 할인 상세 - 트립닷컴 쿠폰" />
         <meta property="og:description" content="트립닷컴 카드사별 제휴 할인 총정리. 신한카드 8%, KB국민 6%, 카카오뱅크 20% 등 카드별 조건·기간·사용법 완벽 가이드." />
         <meta property="og:url" content="https://trip.dongbaektour.co.kr/card-discounts" />
         <meta property="og:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
-        <meta property="og:site_name" content="트립닷컴 호텔 할인코드" />
+        <meta property="og:site_name" content="트립닷컴 쿠폰" />
         <meta property="og:locale" content="ko_KR" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="카드사별 할인 상세 - 트립닷컴 호텔 할인코드" />
+        <meta name="twitter:title" content="카드사별 할인 상세 - 트립닷컴 쿠폰" />
         <meta name="twitter:description" content="트립닷컴 카드사별 제휴 할인 총정리. 신한카드 8%, KB국민 6%, 카카오뱅크 20% 등 카드별 조건·기간·사용법 완벽 가이드." />
         <meta name="twitter:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
@@ -36,7 +36,7 @@ const CardDiscounts = () => {
           "description": "카드사별 트립닷컴 제휴 할인의 조건·기간·금액·사용법 완벽 정리",
           "url": "https://trip.dongbaektour.co.kr/card-discounts",
           "dateModified": "2026-08-04",
-          "author": {"@type":"Organization","name":"트립닷컴 호텔 할인코드"}
+          "author": {"@type":"Organization","name":"트립닷컴 쿠폰"}
         })}</script>
       </Head>
 

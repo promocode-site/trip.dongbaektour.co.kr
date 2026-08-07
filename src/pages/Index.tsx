@@ -25,24 +25,24 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>트립닷컴 호텔 할인코드</title>
+        <title>트립닷컴 쿠폰</title>
         <meta name="description" content="트립닷컴 8월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="트립닷컴 호텔 할인코드" />
+        <meta property="og:title" content="트립닷컴 쿠폰" />
         <meta property="og:description" content="트립닷컴 8월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <meta property="og:url" content="https://trip.dongbaektour.co.kr/" />
         <meta property="og:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
-        <meta property="og:site_name" content="트립닷컴 호텔 할인코드" />
+        <meta property="og:site_name" content="트립닷컴 쿠폰" />
         <meta property="og:locale" content="ko_KR" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="트립닷컴 호텔 할인코드" />
+        <meta name="twitter:title" content="트립닷컴 쿠폰" />
         <meta name="twitter:description" content="트립닷컴 8월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <meta name="twitter:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": "트립닷컴 호텔 할인코드",
+          "name": "트립닷컴 쿠폰",
           "description": "트립닷컴 8월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!",
           "url": "https://trip.dongbaektour.co.kr/",
           "mainEntity": {
