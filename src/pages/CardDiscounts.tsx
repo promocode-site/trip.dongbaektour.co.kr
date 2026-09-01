@@ -35,7 +35,7 @@ const CardDiscounts = () => {
           "headline": "트립닷컴 카드사별 할인 상세 가이드 2026",
           "description": "카드사별 트립닷컴 제휴 할인의 조건·기간·금액·사용법 완벽 정리",
           "url": "https://trip.dongbaektour.co.kr/card-discounts",
-          "dateModified": "2026-08-04",
+          "dateModified": "2026-09-01",
           "author": {"@type":"Organization","name":"트립닷컴 쿠폰"}
         })}</script>
       </Head>
@@ -65,7 +65,7 @@ const CardDiscounts = () => {
                 <div className="bg-primary/10 rounded-lg p-3 text-center"><div className="text-2xl font-black text-primary">3%</div><div className="text-xs text-muted-foreground">액티비티</div></div>
               </div>
               <ul className="text-sm space-y-1 text-muted-foreground">
-                <li>• 예약 기간: ~2026년 8월 31일 (기간 만료 확인 요망)</li>
+                <li>• 예약 기간: ~2026년 9월 30일 (기간 만료 확인 요망)</li>
                 <li>• 결제 통화: <strong className="text-primary">USD(달러)</strong> 결제 시만 적용</li>
                 <li>• 신한카드 전용 URL로 접속 후 결제</li>
               </ul>
@@ -134,7 +134,7 @@ const CardDiscounts = () => {
               <div className="bg-trip-green/10 rounded-lg p-4 text-center"><div className="text-3xl font-black text-trip-green">4%</div><div className="text-sm">액티비티</div></div>
             </div>
             <ul className="text-sm space-y-1 text-muted-foreground">
-              <li>• 예약 기간: ~2026년 8월 31일 (선착순)</li>
+              <li>• 예약 기간: ~2026년 9월 30일 (선착순)</li>
               <li>• 결제 통화: USD 또는 KRW (코드별 상이)</li>
               <li>• 우리카드 전용 링크 접속 → 코드 입력 → 우리카드로 결제</li>
             </ul>
@@ -222,7 +222,7 @@ const CardDiscounts = () => {
                 <div className="bg-trip-green/10 rounded-lg p-3 text-center"><div className="text-2xl font-black text-trip-green">5%</div><div className="text-xs">투어·티켓</div></div>
               </div>
               <ul className="text-sm space-y-1 text-muted-foreground">
-                <li>• ~2026년 8월 31일 (선착순)</li>
+                <li>• ~2026년 9월 30일 (선착순)</li>
                 <li>• <strong className="text-trip-green">KRW(원화) 결제 필수</strong></li>
                 <li>• 반드시 네이버 웨일 브라우저에서 접속</li>
                 <li>• 네이버페이 결제 시 0.5% 추가 적립</li>
@@ -318,13 +318,13 @@ const CardDiscounts = () => {
                 <tr><th>카드사</th><th>호텔</th><th>항공</th><th>액티비티</th><th>통화</th><th>한도</th><th>기간</th><th>편의성</th><th>추천도</th></tr>
               </thead>
               <tbody>
-                <tr><td className="font-medium">신한 SOL</td><td>7%</td><td>4%</td><td>3%</td><td className="text-primary font-medium">USD</td><td>제한 없음</td><td>~'26.03</td><td>★★★</td><td>⭐⭐⭐⭐</td></tr>
-                <tr><td className="font-medium">신한 (일반)</td><td>8%</td><td>4%</td><td>3%</td><td className="text-trip-green font-medium">KRW</td><td>각 30만</td><td>~'25.12</td><td>★★★★</td><td>⭐⭐⭐⭐</td></tr>
+                <tr><td className="font-medium">신한 SOL</td><td>7%</td><td>4%</td><td>3%</td><td className="text-primary font-medium">USD</td><td>제한 없음</td><td>~'26.09</td><td>★★★</td><td>⭐⭐⭐⭐</td></tr>
+                <tr><td className="font-medium">신한 (일반)</td><td>8%</td><td>4%</td><td>3%</td><td className="text-trip-green font-medium">KRW</td><td>각 30만</td><td>~'26.12</td><td>★★★★</td><td>⭐⭐⭐⭐</td></tr>
                 <tr><td className="font-medium">KB국민</td><td>6%</td><td>3%</td><td>4%</td><td className="text-primary font-medium">USD</td><td>예산한도</td><td>~'26.12</td><td>★★★</td><td>⭐⭐⭐⭐⭐</td></tr>
-                <tr><td className="font-medium">우리</td><td>6%</td><td>3%</td><td>4%</td><td>혼합</td><td>선착순</td><td>~'26.06</td><td>★★★</td><td>⭐⭐⭐</td></tr>
+                <tr><td className="font-medium">우리</td><td>6%</td><td>3%</td><td>4%</td><td>혼합</td><td>선착순</td><td>~'26.09</td><td>★★★</td><td>⭐⭐⭐</td></tr>
                 <tr><td className="font-medium">VISA</td><td>~6%</td><td>~6%</td><td>—</td><td className="text-primary font-medium">USD</td><td>선착순</td><td>상시</td><td>★★★</td><td>⭐⭐⭐</td></tr>
                 <tr className="bg-trip-gold/5"><td className="font-bold text-trip-gold">카카오뱅크</td><td className="font-bold">20%</td><td>10%</td><td>—</td><td className="text-primary font-medium">USD</td><td>$100/$80</td><td>확인</td><td>★★</td><td>⭐⭐⭐⭐⭐</td></tr>
-                <tr className="bg-trip-green/5"><td className="font-bold text-trip-green">네이버 웨일</td><td className="font-bold">7%</td><td>2.5%</td><td>5%</td><td className="text-trip-green font-medium">KRW</td><td>선착순</td><td>~'26.06</td><td>★★★★★</td><td>⭐⭐⭐⭐⭐</td></tr>
+                <tr className="bg-trip-green/5"><td className="font-bold text-trip-green">네이버 웨일</td><td className="font-bold">7%</td><td>2.5%</td><td>5%</td><td className="text-trip-green font-medium">KRW</td><td>선착순</td><td>~'26.09</td><td>★★★★★</td><td>⭐⭐⭐⭐⭐</td></tr>
                 <tr><td className="font-medium">카카오페이</td><td>~12%</td><td>—</td><td>—</td><td className="text-trip-green font-medium">KRW</td><td>3만원</td><td>~'26.12</td><td>★★★★</td><td>⭐⭐⭐⭐</td></tr>
               </tbody>
             </table>
