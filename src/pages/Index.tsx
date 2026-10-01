@@ -100,50 +100,6 @@ const Index = () => {
         <p className="section-subtitle">지금 바로 쓸 수 있는 트립닷컴 기본 할인코드 — 코드 복사 후 결제 시 입력하세요</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* 토스페이 항공 5% */}
-          <article className="card-trip border-l-4 border-l-trip-red">
-            <div className="flex items-start justify-between gap-4 flex-wrap">
-              <div className="flex-1 min-w-0">
-                <span className="badge-trip bg-trip-red/10 text-trip-red text-xs mb-2"><Plane className="w-3 h-3" /> 토스페이 · 신규</span>
-                <h3 className="font-bold text-lg mb-1">토스페이 항공 할인코드</h3>
-                <p className="text-2xl font-black text-trip-red">항공 5% 할인 <span className="text-base font-bold">(최대 6만원)</span></p>
-                <p className="text-sm font-semibold text-foreground mt-1">코드: <span className="text-trip-red">TOSSF05</span></p>
-                <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-                  <li>• 토스페이 결제 시 적용, 최소 사용금액 없음</li>
-                  <li>• 할인·예약 ~2026.09.30 / 이륙 ~2026.10.31</li>
-                  <li>• 계정당 1일 1회 선착순</li>
-                  <li>• 전용 링크 접속 후 결제 시 코드 입력</li>
-                </ul>
-              </div>
-              <div className="flex flex-col gap-2 items-end">
-                <CopyButton code="TOSSF05" />
-                <AffiliateBtn href={TOSS_LINK} label="항공 할인 →" className="text-sm py-2 px-4" />
-              </div>
-            </div>
-          </article>
-
-          {/* 토스페이 호텔 5% */}
-          <article className="card-trip border-l-4 border-l-trip-red">
-            <div className="flex items-start justify-between gap-4 flex-wrap">
-              <div className="flex-1 min-w-0">
-                <span className="badge-trip bg-trip-red/10 text-trip-red text-xs mb-2"><Hotel className="w-3 h-3" /> 토스페이 · 신규</span>
-                <h3 className="font-bold text-lg mb-1">토스페이 호텔 할인코드</h3>
-                <p className="text-2xl font-black text-trip-red">호텔 5% 할인 <span className="text-base font-bold">(최대 6만원)</span></p>
-                <p className="text-sm font-semibold text-foreground mt-1">코드: <span className="text-trip-red">TOSSH05</span></p>
-                <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-                  <li>• 토스페이 결제 시 적용, 최소 사용금액 없음</li>
-                  <li>• 할인·예약 ~2026.09.30 / 숙박 ~2026.10.31</li>
-                  <li>• 계정당 1일 1회 선착순</li>
-                  <li>• 전용 링크 접속 후 결제 시 코드 입력</li>
-                </ul>
-              </div>
-              <div className="flex flex-col gap-2 items-end">
-                <CopyButton code="TOSSH05" />
-                <AffiliateBtn href={TOSS_LINK} label="호텔 할인 →" className="text-sm py-2 px-4" />
-              </div>
-            </div>
-          </article>
-
           {/* 인플루언서 코드 */}
           <article className="card-trip border-l-4 border-l-trip-orange">
             <div className="flex items-start justify-between gap-4 flex-wrap">
@@ -256,6 +212,50 @@ const Index = () => {
               </div>
               <div className="flex flex-col gap-2 items-end">
                 <AffiliateBtn label="예약하기 →" className="text-sm py-2 px-4" />
+              </div>
+            </div>
+          </article>
+
+          {/* 토스페이 항공 5% */}
+          <article className="card-trip border-l-4 border-l-trip-red">
+            <div className="flex items-start justify-between gap-4 flex-wrap">
+              <div className="flex-1 min-w-0">
+                <span className="badge-trip bg-trip-red/10 text-trip-red text-xs mb-2"><Plane className="w-3 h-3" /> 토스페이 · 신규</span>
+                <h3 className="font-bold text-lg mb-1">토스페이 항공 할인코드</h3>
+                <p className="text-2xl font-black text-trip-red">항공 5% 할인 <span className="text-base font-bold">(최대 6만원)</span></p>
+                <p className="text-sm font-semibold text-foreground mt-1">코드: <span className="text-trip-red">TOSSF05</span></p>
+                <ul className="mt-2 text-sm text-muted-foreground space-y-1">
+                  <li>• 토스페이 결제 시 적용, 최소 사용금액 없음</li>
+                  <li>• 할인·예약 ~2026.09.30 / 이륙 ~2026.10.31</li>
+                  <li>• 계정당 1일 1회 선착순</li>
+                  <li>• 전용 링크 접속 후 결제 시 코드 입력</li>
+                </ul>
+              </div>
+              <div className="flex flex-col gap-2 items-end">
+                <CopyButton code="TOSSF05" />
+                <AffiliateBtn href={TOSS_LINK} label="항공 할인 →" className="text-sm py-2 px-4" />
+              </div>
+            </div>
+          </article>
+
+          {/* 토스페이 호텔 5% */}
+          <article className="card-trip border-l-4 border-l-trip-red">
+            <div className="flex items-start justify-between gap-4 flex-wrap">
+              <div className="flex-1 min-w-0">
+                <span className="badge-trip bg-trip-red/10 text-trip-red text-xs mb-2"><Hotel className="w-3 h-3" /> 토스페이 · 신규</span>
+                <h3 className="font-bold text-lg mb-1">토스페이 호텔 할인코드</h3>
+                <p className="text-2xl font-black text-trip-red">호텔 5% 할인 <span className="text-base font-bold">(최대 6만원)</span></p>
+                <p className="text-sm font-semibold text-foreground mt-1">코드: <span className="text-trip-red">TOSSH05</span></p>
+                <ul className="mt-2 text-sm text-muted-foreground space-y-1">
+                  <li>• 토스페이 결제 시 적용, 최소 사용금액 없음</li>
+                  <li>• 할인·예약 ~2026.09.30 / 숙박 ~2026.10.31</li>
+                  <li>• 계정당 1일 1회 선착순</li>
+                  <li>• 전용 링크 접속 후 결제 시 코드 입력</li>
+                </ul>
+              </div>
+              <div className="flex flex-col gap-2 items-end">
+                <CopyButton code="TOSSH05" />
+                <AffiliateBtn href={TOSS_LINK} label="호텔 할인 →" className="text-sm py-2 px-4" />
               </div>
             </div>
           </article>
