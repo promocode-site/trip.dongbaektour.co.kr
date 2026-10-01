@@ -28,24 +28,24 @@ const Index = () => {
     <>
       <Head>
         <title>트립닷컴 쿠폰</title>
-        <meta name="description" content="트립닷컴 9월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
+        <meta name="description" content="트립닷컴 10월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <link rel="canonical" href="https://trip.dongbaektour.co.kr/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="트립닷컴 쿠폰" />
-        <meta property="og:description" content="트립닷컴 9월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
+        <meta property="og:description" content="트립닷컴 10월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <meta property="og:url" content="https://trip.dongbaektour.co.kr/" />
         <meta property="og:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <meta property="og:site_name" content="트립닷컴 쿠폰" />
         <meta property="og:locale" content="ko_KR" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="트립닷컴 쿠폰" />
-        <meta name="twitter:description" content="트립닷컴 9월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
+        <meta name="twitter:description" content="트립닷컴 10월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!" />
         <meta name="twitter:image" content="https://trip.dongbaektour.co.kr/og-image.jpg" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
           "name": "트립닷컴 쿠폰",
-          "description": "트립닷컴 9월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!",
+          "description": "트립닷컴 10월 호텔 할인코드 총정리! 호텔 뿐만 아니라 항공권에도 적용 가능한 할인코드까지 다양한 할인 쿠폰이 업데이트 되었습니다. 트립닷컴 예약 전 필독! 할인 받고 예약하세요!",
           "url": "https://trip.dongbaektour.co.kr/",
           ...pageDates,
           "mainEntity": {
@@ -67,7 +67,7 @@ const Index = () => {
         <div className="relative container py-16 md:py-24 text-primary-foreground text-center">
           <h1 className="text-3xl md:text-5xl font-black mb-4 leading-tight">
             트립닷컴 할인코드<br />
-            <span className="text-trip-gold">2026년 9월</span> 최신 업데이트 완료
+            <span className="text-trip-gold">2026년 10월</span> 최신 업데이트 완료
           </h1>
           <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto mb-8">
             트립닷컴(Trip.com) 할인코드·쿠폰·카드 제휴·프로모션 정보를 한 곳에서 확인하세요.<br />
@@ -77,7 +77,7 @@ const Index = () => {
           {/* Badges */}
           <div className="flex flex-wrap justify-center gap-3 mb-8">
             <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><CheckCircle className="w-4 h-4" /> 사용 가능 코드: 32개 이상</span>
-            <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><RefreshCw className="w-4 h-4" /> 업데이트: 2026.09.01</span>
+            <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><RefreshCw className="w-4 h-4" /> 업데이트: 2026.10.01</span>
             <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><CreditCard className="w-4 h-4" /> 제휴 카드사 8종+</span>
             <span className="badge-trip bg-primary-foreground/20 text-primary-foreground"><Gift className="w-4 h-4" /> 신규회원 최대 12,800원</span>
           </div>
@@ -95,7 +95,7 @@ const Index = () => {
       <section className="container py-12" aria-label="이달의 핵심 할인코드">
         <div className="flex items-center gap-3 mb-2">
           <img src={discountImg} alt="할인코드" width={60} height={45} loading="lazy" />
-          <h2 className="section-title">🔥 이달의 핵심 할인코드 (9월 기준)</h2>
+          <h2 className="section-title">🔥 이달의 핵심 할인코드 (10월 기준)</h2>
         </div>
         <p className="section-subtitle">지금 바로 쓸 수 있는 트립닷컴 기본 할인코드 — 코드 복사 후 결제 시 입력하세요</p>
 
@@ -174,7 +174,7 @@ const Index = () => {
                 <h3 className="font-bold text-lg mb-1">항공권 기본 할인코드</h3>
                 <p className="text-2xl font-black text-primary">항공권 3% 할인</p>
                 <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-                  <li>• KRW 결제, ~2026년 9월 30일</li>
+                  <li>• KRW 결제, ~2026년 10월 31일</li>
                   <li>• 신규·기존 회원 모두 사용 가능</li>
                 </ul>
               </div>
@@ -277,7 +277,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <article className="card-trip">
               <img src={japanImg} alt="일본 여행 특가" width={800} height={512} loading="lazy" className="w-full h-40 object-cover rounded-lg mb-4" />
-              <span className="badge-trip bg-trip-red/10 text-trip-red text-xs">~4월 12일</span>
+              <span className="badge-trip bg-trip-red/10 text-trip-red text-xs">~10월 25일</span>
               <h3 className="font-bold text-lg mt-2">트립찬스 (TripChance) 프로모션</h3>
               <ul className="mt-2 text-sm text-muted-foreground space-y-1">
                 <li>• 일본 2박 3일 항공+호텔 <strong className="text-foreground">19.9만원</strong> 특가</li>
@@ -290,7 +290,7 @@ const Index = () => {
 
             <article className="card-trip">
               <img src={japanImg} alt="일본 특가 프로모션" width={800} height={512} loading="lazy" className="w-full h-40 object-cover rounded-lg mb-4" />
-              <span className="badge-trip bg-primary/10 text-primary text-xs">~4월 26일</span>
+              <span className="badge-trip bg-primary/10 text-primary text-xs">~10월 31일</span>
               <h3 className="font-bold text-lg mt-2">일본 특가 프로모션</h3>
               <ul className="mt-2 text-sm text-muted-foreground space-y-1">
                 <li>• 일본 항공권 최대 <strong className="text-foreground">3만원</strong> 할인</li>
@@ -302,15 +302,15 @@ const Index = () => {
             </article>
 
             <article className="card-trip">
-              <img src={macauImg} alt="마카오 위클리 특가" width={800} height={512} loading="lazy" className="w-full h-40 object-cover rounded-lg mb-4" />
-              <span className="badge-trip bg-trip-gold/10 text-trip-gold text-xs">매주 수요일</span>
-              <h3 className="font-bold text-lg mt-2">마카오 위클리 특가</h3>
+              <img src={chinaImg} alt="중국 위클리 특가" width={800} height={512} loading="lazy" className="w-full h-40 object-cover rounded-lg mb-4" />
+              <span className="badge-trip bg-trip-gold/10 text-trip-gold text-xs">매주 화·목요일</span>
+              <h3 className="font-bold text-lg mt-2">중국 위클리 특가 (GO 차이나)</h3>
               <ul className="mt-2 text-sm text-muted-foreground space-y-1">
-                <li>• 매주 수요일 오전 10시 선착순</li>
-                <li>• 항공권 최대 <strong className="text-foreground">3만원</strong> 할인</li>
-                <li>• 호텔 최대 <strong className="text-foreground">4만원</strong> 할인</li>
+                <li>• 매주 화요일 항공권, 목요일 호텔 선착순</li>
+                <li>• 항공권 토스페이 결제 시 최대 <strong className="text-foreground">5만원</strong> 할인</li>
+                <li>• 호텔 토스페이 결제 시 최대 <strong className="text-foreground">5만원</strong> 할인</li>
               </ul>
-              <AffiliateBtn label="마카오 특가 →" className="mt-4 text-sm py-2 px-4" />
+              <AffiliateBtn label="중국 특가 →" className="mt-4 text-sm py-2 px-4" />
             </article>
 
             <article className="card-trip">
@@ -346,7 +346,7 @@ const Index = () => {
 
       {/* 지역별 항공권 특가 */}
       <section className="container py-12" aria-label="지역별 항공권 특가">
-        <h2 className="section-title">✈️ 지역별 항공권 특가 현황 (9월 기준)</h2>
+        <h2 className="section-title">✈️ 지역별 항공권 특가 현황 (10월 기준)</h2>
         <p className="section-subtitle">인기 여행지별 현재 할인 가능한 수준을 한눈에 확인하세요</p>
         <div className="table-responsive">
           <table className="table-trip">
@@ -361,14 +361,14 @@ const Index = () => {
             </thead>
             <tbody>
               {[
-                ["🇯🇵 일본", "최대 3만원 할인", "항공 3만원 + 호텔 20%", "~4월 26일"],
+                ["🇯🇵 일본", "최대 3만원 할인", "항공 3만원 + 호텔 20%", "~10월 31일"],
                 ["🇹🇭 태국", "상시 특가", "연중 항공+호텔 특가", "~12월 31일"],
                 ["🇨🇳 중국", "2인 이상 최대 3만원", "항공 3만원 + 호텔 15%", "상시"],
-                ["🇲🇴 마카오", "매주 수요일 최대 7만원", "항공 3만원 + 호텔 4만원", "~4월 12일"],
+                ["🇨🇳 중국 (GO 차이나)", "매주 화·목 최대 10만원", "항공 5만원 + 호텔 5만원 (토스페이)", "매주 화·목요일"],
                 ["🇻🇳 베트남", "특가 상시", "국제선 특가", "상시"],
-                ["🇺🇸 미주", "티웨이항공 특가", "장거리 특가", "상시"],
-                ["🇪🇺 유럽·캐나다·호주", "티웨이항공 특가", "밴쿠버·시드니 등", "상시"],
-                ["🇰🇷 국내선", "수요일 특가", "티웨이항공 수요일 세일", "매주 수요일"],
+                ["🇺🇸 미주", "트리니티항공 특가", "장거리 특가", "상시"],
+                ["🇪🇺 유럽·캐나다·호주", "트리니티항공 특가", "밴쿠버·시드니 등", "상시"],
+                ["🇰🇷 국내선", "수요일 특가", "트리니티항공 수요일 세일", "매주 수요일"],
               ].map(([region, level, benefit, period], i) => (
                 <tr key={i}>
                   <td className="font-medium whitespace-nowrap">{region}</td>
@@ -426,7 +426,7 @@ const Index = () => {
                 ["신한 SOL TRAVEL", "7%", "4%", "3%", "USD", "~2026.09.30"],
                 ["신한카드 (일반)", "8% (최대30만)", "4% (최대30만)", "3%", "KRW", "~2026.12.31"],
                 ["KB 국민카드", "6%", "3%", "4%", "USD", "~2026.12.31"],
-                ["우리카드", "6%", "3%", "4%", "USD/KRW", "~2026.09.30"],
+                ["우리카드", "6%", "3%", "4%", "USD/KRW", "~2026.12.31"],
                 ["VISA 카드", "최대 6%", "최대 6%", "—", "USD", "상시"],
                 ["마스터카드", "제공", "제공", "제공", "USD/KRW", "상시"],
                 ["카카오뱅크 마스터", "20% (최대$100)", "10% (최대$80)", "—", "USD", "확인 요망"],
