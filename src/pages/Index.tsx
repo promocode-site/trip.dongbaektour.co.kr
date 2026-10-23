@@ -232,7 +232,7 @@ const Index = () => {
                 </ul>
               </div>
               <div className="flex flex-col gap-2 items-end">
-                <CopyButton code="TOSSF05" />
+                <CopyButton code="TOSSF05" href={TOSS_LINK} />
                 <AffiliateBtn href={TOSS_LINK} label="항공 할인 →" className="text-sm py-2 px-4" />
               </div>
             </div>
@@ -254,7 +254,7 @@ const Index = () => {
                 </ul>
               </div>
               <div className="flex flex-col gap-2 items-end">
-                <CopyButton code="TOSSH05" />
+                <CopyButton code="TOSSH05" href={TOSS_LINK} />
                 <AffiliateBtn href={TOSS_LINK} label="호텔 할인 →" className="text-sm py-2 px-4" />
               </div>
             </div>
